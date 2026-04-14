@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@fontsource/open-sans/300.css";
+@import "@fontsource/open-sans/400.css";
+@import "@fontsource/open-sans/600.css";
+@import "@fontsource/open-sans/700.css";
+
+
+/* .select2-container {
+    width: 100% !important;
+} */
+
+.select2-container .select2-selection--single {
+    @apply bg-white border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 h-auto;
+    min-height: 42px;
+    display: flex !important;
+    align-items: center;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    @apply text-gray-900 p-0 m-0 w-full;
+    line-height: 1.5 !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    @apply h-full top-0 right-0 px-2 flex items-center justify-center;
+    position: absolute !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+    @apply text-gray-500;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--single {
+    @apply border-blue-500 ring-1 ring-blue-500;
+    outline: none;
+}
+
+.select2-dropdown {
+    @apply bg-white border border-gray-300 rounded-lg shadow z-50;
+}
+
+.select2-search__field {
+    @apply rounded p-2 border-gray-300 !important;
+}
+
+.select2-results__option {
+    @apply text-sm p-2;
+}
+
+.select2-results__option--highlighted[aria-selected] {
+    @apply bg-blue-600 text-white !important;
+}
+
+.select2-selection__clear {
+    position: absolute !important;
+    right: 1px !important;   
+    /* left: auto !important;    */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+
+
+.select2-container--default
+.select2-selection--multiple
+.select2-search--inline
+.select2-search__field {
+    height: 32px;
+    line-height: 32px;
+    margin-top: -5px;
+}
