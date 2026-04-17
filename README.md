@@ -1,6 +1,6 @@
-# Science Surgical ERP
+# ERP System
 
-A comprehensive Enterprise Resource Planning (ERP) system custom-built for Science Surgical to streamline operations across human resources, inventory management, and sales.
+A comprehensive Enterprise Resource Planning (ERP) system custom-built to streamline operations across human resources, inventory management, and sales.
 
 ## 🚀 Technologies
 
@@ -44,7 +44,7 @@ This project uses custom Composer scripts to automate the setup process.
 1. **Clone the repository:**
    ```bash
    git clone <your-repository-url>
-   cd erp.sciencesurgical.in
+   cd erp-system
    ```
 
 2. **Run the setup script:**

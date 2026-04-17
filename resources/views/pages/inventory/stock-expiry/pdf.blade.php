@@ -91,7 +91,7 @@
 </head>
 <body>
     <div class="header">
-        <h1>SCIENCE & SURGICAL</h1>
+        <h1>COMPANY NAME</h1>
         <p>Stock Expiry Report</p>
     </div>
 

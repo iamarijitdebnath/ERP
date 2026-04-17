@@ -27,7 +27,7 @@ class StockRegisterExport implements FromArray, ShouldAutoSize, WithStyles
         $rows = [];
 
         // Headers
-        $rows[] = ['SCIENCE & SURGICAL'];
+        $rows[] = ['COMPANY NAME'];
         $rows[] = ['Stock Register'];
         
         $dateRange = '-';

@@ -112,7 +112,7 @@
 </head>
 <body>
     <div class="header">
-        <h1>SCIENCE & SURGICAL</h1>
+        <h1>COMPANY NAME</h1>
         {{-- <p>Generated on {{ now()->format('d-m-Y H:i A') }}</p> --}}
     </div>
 

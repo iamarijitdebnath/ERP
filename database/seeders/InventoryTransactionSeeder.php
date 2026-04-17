@@ -25,9 +25,9 @@ class InventoryTransactionSeeder extends Seeder
 
     public function run()
     {
-        $company = Company::where('name', 'Science & Surgical')->first() ?? Company::first();
+        $company = Company::where('name', 'Company Name')->first() ?? Company::first();
         if (!$company) {
-            $company = Company::create(['name' => 'Science & Surgical', 'is_active' => true]);
+            $company = Company::create(['name' => 'Company Name', 'is_active' => true]);
         }
         $companyId = $company->id;
 

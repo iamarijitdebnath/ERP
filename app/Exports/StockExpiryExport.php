@@ -27,7 +27,7 @@ class StockExpiryExport implements FromArray, ShouldAutoSize, WithStyles
         $rows = [];
 
         // Headers
-        $rows[] = ['SCIENCE & SURGICAL'];
+        $rows[] = ['COMPANY NAME'];
         $rows[] = ['Stock Expiry Report'];
         
         $dateRange = 'All Dates';

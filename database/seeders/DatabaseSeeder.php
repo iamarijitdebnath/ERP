@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder {
     public function run(): void {
 
         $company = Company::create([
-            'name' => 'Science & Surgical',
+            'name' => 'Company Name',
             'is_active' => true
         ]);
 
